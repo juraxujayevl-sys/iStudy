@@ -6,10 +6,9 @@ export const PERSONAL_INFO = {
   fullName: 'Lazizbek (Laziz)',
   email: 'juraxujayevl@gmail.com',
   telegram: 'https://t.me/juraxujayev_1',
-  instagram: 'https://instagram.com/laziz.ai',
-  youtube: 'https://youtube.com/@laziz_ai',
+  instagram: 'https://instagram.com/juraxujayev.21',
+  youtube: 'https://youtube.com/@LazizJuraxujayev-ai',
   github: 'https://github.com/laziz-ai',
-  linkedin: 'https://linkedin.com/in/laziz-ai',
   location: 'Samarkand, Uzbekistan 🇺🇿'
 };
 
@@ -421,7 +420,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'Instagram',
         thumbnail: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
         description: 'AI agentlarda xotira, vektor qidiruvi va vositalar binar aloqasi 90 soniyalik kinematoqrafik videoda tushuntirilgan.',
-        link: 'https://instagram.com/laziz.ai',
+        link: 'https://instagram.com/juraxujayev.21',
         metrics: { likes: '38.2K', shares: '14.5K', comments: '1.2K' }
       },
       {
@@ -432,7 +431,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'YouTube',
         thumbnail: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80',
         description: 'Dastlabki prompit g\'oyasidan tortib, vektor bazani sozlash va birinchi daromadgacha bo\'lgan har bir bosqichni ko\'rsatuvchi dokumental vlog.',
-        link: 'https://youtube.com/@laziz_ai',
+        link: 'https://youtube.com/@LazizJuraxujayev-ai',
         metrics: { likes: '19.4K', shares: '5.1K', comments: '890' }
       },
       {
@@ -443,7 +442,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'Instagram',
         thumbnail: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80',
         description: 'Few-Shot, Chain-of-Thought va XML teglar tuzilishi orqali ancha aniq natijalar olish bo\'yicha darslik.',
-        link: 'https://instagram.com/laziz.ai',
+        link: 'https://instagram.com/juraxujayev.21',
         metrics: { likes: '29.1K', shares: '22.8K', comments: '940' }
       },
       {
@@ -454,7 +453,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'TikTok',
         thumbnail: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80',
         description: 'Python va Unsloth yordamida shaxsiy kompyuterda LLaMA-3 modelini QLoRA orqali fine-tune qilish videosi.',
-        link: 'https://tiktok.com/@laziz_ai',
+        link: 'https://instagram.com/juraxujayev.21',
         metrics: { likes: '54.0K', shares: '31.2K', comments: '2.1K' }
       },
       {
@@ -465,7 +464,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'YouTube',
         thumbnail: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80',
         description: 'Claude 3.5 Sonnet va tajribali dasturchi o\'rtasida murakkab refaktoring topshiriqlarini solishtirish testi.',
-        link: 'https://youtube.com/@laziz_ai',
+        link: 'https://youtube.com/@LazizJuraxujayev-ai',
         metrics: { likes: '32.6K', shares: '9.8K', comments: '1.4K' }
       },
       {
@@ -476,7 +475,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'Instagram',
         thumbnail: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80',
         description: '70B parametrli modelni MLX orqali lokal yurgizib, soniyasiga tokenlar tezligini sinovdan o\'tkazish.',
-        link: 'https://instagram.com/laziz.ai',
+        link: 'https://instagram.com/juraxujayev.21',
         metrics: { likes: '26.4K', shares: '11.2K', comments: '750' }
       }
     ];
@@ -492,7 +491,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'Instagram',
         thumbnail: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
         description: 'Разбор работы векторного поиска, памяти и взаимодействия инструментов в AI агентских системах.',
-        link: 'https://instagram.com/laziz.ai',
+        link: 'https://instagram.com/juraxujayev.21',
         metrics: { likes: '38.2K', shares: '14.5K', comments: '1.2K' }
       },
       {
@@ -503,7 +502,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'YouTube',
         thumbnail: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80',
         description: 'Документальный влог от генерации идеи промпта до развертывания векторной базы и первых продаж.',
-        link: 'https://youtube.com/@laziz_ai',
+        link: 'https://youtube.com/@LazizJuraxujayev-ai',
         metrics: { likes: '19.4K', shares: '5.1K', comments: '890' }
       },
       {
@@ -514,7 +513,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'Instagram',
         thumbnail: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80',
         description: 'Разбор техник Few-Shot, Chain-of-Thought и форматирования XML тегов для повышения точности.',
-        link: 'https://instagram.com/laziz.ai',
+        link: 'https://instagram.com/juraxujayev.21',
         metrics: { likes: '29.1K', shares: '22.8K', comments: '940' }
       },
       {
@@ -525,7 +524,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'TikTok',
         thumbnail: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80',
         description: 'Динамичный ролик по дообучению LLaMA-3 с использованием Python и Unsloth на локальном ПК.',
-        link: 'https://tiktok.com/@laziz_ai',
+        link: 'https://instagram.com/juraxujayev.21',
         metrics: { likes: '54.0K', shares: '31.2K', comments: '2.1K' }
       },
       {
@@ -536,7 +535,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'YouTube',
         thumbnail: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80',
         description: 'Сравнение способностей Claude 3.5 Sonnet и опытного инженера в сложных задачах рефакторинга.',
-        link: 'https://youtube.com/@laziz_ai',
+        link: 'https://youtube.com/@LazizJuraxujayev-ai',
         metrics: { likes: '32.6K', shares: '9.8K', comments: '1.4K' }
       },
       {
@@ -547,7 +546,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
         platform: 'Instagram',
         thumbnail: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80',
         description: 'Тестирование генерации токенов в секунду при запуске 70B модели локально через MLX.',
-        link: 'https://instagram.com/laziz.ai',
+        link: 'https://instagram.com/juraxujayev.21',
         metrics: { likes: '26.4K', shares: '11.2K', comments: '750' }
       }
     ];
@@ -563,7 +562,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
       platform: 'Instagram',
       thumbnail: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
       description: 'A 90-second cinematic video breakdown explaining memory, vector search, and tool use in agentic AI frameworks.',
-      link: 'https://instagram.com/laziz.ai',
+      link: 'https://instagram.com/juraxujayev.21',
       metrics: { likes: '38.2K', shares: '14.5K', comments: '1.2K' }
     },
     {
@@ -574,7 +573,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
       platform: 'YouTube',
       thumbnail: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80',
       description: 'Deep dive vlog documenting every step from initial prompt ideation, vector database setup, to launching live revenue.',
-      link: 'https://youtube.com/@laziz_ai',
+      link: 'https://youtube.com/@LazizJuraxujayev-ai',
       metrics: { likes: '19.4K', shares: '5.1K', comments: '890' }
     },
     {
@@ -585,7 +584,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
       platform: 'Instagram',
       thumbnail: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80',
       description: 'Visual carousel & short reel detailing Few-Shot, Chain-of-Thought, and XML tag structuring for high accuracy outputs.',
-      link: 'https://instagram.com/laziz.ai',
+      link: 'https://instagram.com/juraxujayev.21',
       metrics: { likes: '29.1K', shares: '22.8K', comments: '940' }
     },
     {
@@ -596,7 +595,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
       platform: 'TikTok',
       thumbnail: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80',
       description: 'High energy fast-paced coding video demonstrating QLoRA fine-tuning on a local machine using Python and Unsloth.',
-      link: 'https://tiktok.com/@laziz_ai',
+      link: 'https://instagram.com/juraxujayev.21',
       metrics: { likes: '54.0K', shares: '31.2K', comments: '2.1K' }
     },
     {
@@ -607,7 +606,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
       platform: 'YouTube',
       thumbnail: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80',
       description: 'Head-to-head comparison testing Claude 3.5 Sonnet against human senior engineers across complex refactoring tasks.',
-      link: 'https://youtube.com/@laziz_ai',
+      link: 'https://youtube.com/@LazizJuraxujayev-ai',
       metrics: { likes: '32.6K', shares: '9.8K', comments: '1.4K' }
     },
     {
@@ -618,7 +617,7 @@ export const getContentItems = (lang: Language): ContentItem[] => {
       platform: 'Instagram',
       thumbnail: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80',
       description: 'Cinematic hardware test showcasing tokens/second performance running 70B parameter models locally with MLX.',
-      link: 'https://instagram.com/laziz.ai',
+      link: 'https://instagram.com/juraxujayev.21',
       metrics: { likes: '26.4K', shares: '11.2K', comments: '750' }
     }
   ];

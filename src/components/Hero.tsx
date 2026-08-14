@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Sparkles, ArrowDown, Send, Github, Instagram, Youtube, Linkedin, Cpu, Play } from 'lucide-react';
+import { Sparkles, ArrowDown, Send, Github, Instagram, Youtube, Cpu, Play } from 'lucide-react';
 import { PERSONAL_INFO, getPersonalStats } from '../data/portfolioData';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -210,7 +210,7 @@ export const Hero: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-xl glass-panel text-slate-600 dark:text-gray-400 hover:text-pink-600 dark:hover:text-pink-400 hover:border-pink-500/40 transition-colors"
-                  title="Instagram"
+                  title="Instagram (@juraxujayev.21)"
                   id="hero-social-instagram"
                 >
                   <Instagram className="w-4 h-4" />
@@ -220,20 +220,10 @@ export const Hero: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-xl glass-panel text-slate-600 dark:text-gray-400 hover:text-red-600 dark:hover:text-red-400 hover:border-red-500/40 transition-colors"
-                  title="YouTube"
+                  title="YouTube (@LazizJuraxujayev-ai)"
                   id="hero-social-youtube"
                 >
                   <Youtube className="w-4 h-4" />
-                </a>
-                <a
-                  href={PERSONAL_INFO.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2.5 rounded-xl glass-panel text-slate-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 hover:border-blue-500/40 transition-colors"
-                  title="LinkedIn"
-                  id="hero-social-linkedin"
-                >
-                  <Linkedin className="w-4 h-4" />
                 </a>
               </div>
             </div>

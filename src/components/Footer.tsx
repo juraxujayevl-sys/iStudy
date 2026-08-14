@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bot, ArrowUp, Send, Github, Instagram, Youtube, Linkedin } from 'lucide-react';
+import { Bot, ArrowUp, Send, Github, Instagram, Youtube } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/portfolioData';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl bg-slate-300/80 dark:bg-white/5 text-slate-700 dark:text-gray-400 hover:text-pink-600 dark:hover:text-pink-400 hover:bg-slate-300 dark:hover:bg-white/10 transition-colors"
-              title="Instagram"
+              title="Instagram (@juraxujayev.21)"
             >
               <Instagram className="w-4 h-4" />
             </a>
@@ -66,18 +66,9 @@ export const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl bg-slate-300/80 dark:bg-white/5 text-slate-700 dark:text-gray-400 hover:text-red-600 dark:hover:text-red-400 hover:bg-slate-300 dark:hover:bg-white/10 transition-colors"
-              title="YouTube"
+              title="YouTube (@LazizJuraxujayev-ai)"
             >
               <Youtube className="w-4 h-4" />
-            </a>
-            <a
-              href={PERSONAL_INFO.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2.5 rounded-xl bg-slate-300/80 dark:bg-white/5 text-slate-700 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-300 dark:hover:bg-white/10 transition-colors"
-              title="LinkedIn"
-            >
-              <Linkedin className="w-4 h-4" />
             </a>
           </div>
 

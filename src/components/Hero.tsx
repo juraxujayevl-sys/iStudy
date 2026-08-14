@@ -242,7 +242,7 @@ export const Hero: React.FC = () => {
                 {/* Image Container */}
                 <div className="relative rounded-2xl overflow-hidden aspect-[3/4] bg-slate-200 dark:bg-[#0F121A]">
                   <img
-                    src="/src/assets/images/laziz_portrait_1786512507735.jpg"
+                    src="/src/assets/images/laziz.jpg"
                     alt="Laziz — AI Engineer & Content Creator"
                     className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
                     onError={(e) => {

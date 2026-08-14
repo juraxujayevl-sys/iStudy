@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Sparkles, ArrowDown, Send, Github, Instagram, Youtube, Cpu, Play } from 'lucide-react';
 import { PERSONAL_INFO, getPersonalStats } from '../data/portfolioData';
 import { useLanguage } from '../context/LanguageContext';
+import lazizPortrait from '../assets/images/laziz.jpg';
 
 export const Hero: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -242,13 +243,9 @@ export const Hero: React.FC = () => {
                 {/* Image Container */}
                 <div className="relative rounded-2xl overflow-hidden aspect-[3/4] bg-slate-200 dark:bg-[#0F121A]">
                   <img
-                    src="/src/assets/images/laziz.jpg"
+                    src={lazizPortrait}
                     alt="Laziz — AI Engineer & Content Creator"
                     className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src =
-                        'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80';
-                    }}
                   />
                   
                   {/* Subtle Gradient Overlay */}

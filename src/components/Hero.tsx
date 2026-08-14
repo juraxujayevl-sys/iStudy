@@ -106,7 +106,7 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen pt-28 pb-16 flex items-center justify-center overflow-hidden bg-slate-50 dark:bg-[#090A0F]">
+    <section id="hero" className="relative min-h-screen pt-28 pb-16 flex items-center justify-center overflow-hidden bg-slate-50 dark:bg-[#090A0F] text-slate-900 dark:text-white transition-colors duration-300">
       {/* Background Interactive Neural Canvas */}
       <canvas ref={canvasRef} className="absolute inset-0 z-0 opacity-40 dark:opacity-60 pointer-events-none" />
 
@@ -171,10 +171,10 @@ export const Hero: React.FC = () => {
                   e.preventDefault();
                   scrollToSection('#content-creation');
                 }}
-                className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-2xl glass-panel text-slate-800 dark:text-gray-200 font-semibold text-sm border border-slate-300 dark:border-white/15 hover:border-cyan-400/50 hover:bg-slate-100 dark:hover:bg-white/10 transition-all duration-300"
+                className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-2xl glass-panel text-slate-800 dark:text-gray-200 font-semibold text-sm border border-slate-300 dark:border-white/15 hover:border-cyan-400/50 hover:bg-slate-200/60 dark:hover:bg-white/10 transition-all duration-300"
                 id="hero-cta-contact"
               >
-                <Play className="w-4 h-4 text-cyan-500 dark:text-cyan-400" />
+                <Play className="w-4 h-4 text-cyan-600 dark:text-cyan-400" />
                 <span>{t.hero.ctaMedia}</span>
               </a>
             </div>
@@ -250,7 +250,7 @@ export const Hero: React.FC = () => {
               <div className="relative rounded-3xl glass-panel p-3 border border-slate-200 dark:border-white/15 overflow-hidden group">
                 
                 {/* Image Container */}
-                <div className="relative rounded-2xl overflow-hidden aspect-[3/4] bg-slate-100 dark:bg-[#0F121A]">
+                <div className="relative rounded-2xl overflow-hidden aspect-[3/4] bg-slate-200 dark:bg-[#0F121A]">
                   <img
                     src="/src/assets/images/laziz_portrait_1786512507735.jpg"
                     alt="Laziz — AI Engineer & Content Creator"
@@ -262,11 +262,11 @@ export const Hero: React.FC = () => {
                   />
                   
                   {/* Subtle Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 dark:from-[#090A0F] via-transparent to-transparent opacity-80" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 dark:from-[#090A0F] via-transparent to-transparent opacity-80" />
 
                   {/* Code Overlay Badge */}
                   <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
-                    <div className="px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/10 text-[11px] font-mono text-cyan-300 flex items-center gap-1.5">
+                    <div className="px-3 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/10 text-[11px] font-mono text-cyan-300 flex items-center gap-1.5">
                       <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
                       <span>SYSTEM_READY</span>
                     </div>
@@ -276,7 +276,7 @@ export const Hero: React.FC = () => {
                   </div>
 
                   {/* Bottom Portrait Info Pill */}
-                  <div className="absolute bottom-4 left-4 right-4 p-4 rounded-2xl bg-white/85 dark:bg-[#0F121A]/85 backdrop-blur-xl border border-slate-200 dark:border-white/15 shadow-lg">
+                  <div className="absolute bottom-4 left-4 right-4 p-4 rounded-2xl bg-white/90 dark:bg-[#0F121A]/85 backdrop-blur-xl border border-slate-200 dark:border-white/15 shadow-xl">
                     <div className="flex items-center justify-between">
                       <div>
                         <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
@@ -285,7 +285,7 @@ export const Hero: React.FC = () => {
                             UZB 🇺🇿
                           </span>
                         </h3>
-                        <p className="text-xs text-slate-500 dark:text-gray-400">{t.hero.role}</p>
+                        <p className="text-xs text-slate-600 dark:text-gray-400">{t.hero.role}</p>
                       </div>
                       <a
                         href="#synergy"

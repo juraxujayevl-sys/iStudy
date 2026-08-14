@@ -53,7 +53,7 @@ export const About: React.FC = () => {
   const highlights = highlightsMap[language] || highlightsMap.uz;
 
   return (
-    <section id="about" className="py-24 relative bg-slate-100 dark:bg-[#0B0D14] overflow-hidden border-t border-slate-200 dark:border-white/5">
+    <section id="about" className="py-24 relative bg-slate-100/60 dark:bg-[#0F121A]/50 overflow-hidden border-t border-slate-200 dark:border-white/5 transition-colors duration-300">
       {/* Background glow accents */}
       <div className="absolute top-1/2 left-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-[140px] pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-600/5 rounded-full blur-[140px] pointer-events-none" />

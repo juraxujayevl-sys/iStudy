@@ -44,7 +44,7 @@ function MainApp() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-[#090A0F] text-slate-900 dark:text-[#F3F4F6] selection:bg-cyan-500 selection:text-white dark:selection:text-black transition-colors duration-300">
+    <div className="min-h-screen selection:bg-cyan-500 selection:text-white dark:selection:text-black transition-colors duration-300">
       {/* Sticky Navigation */}
       <Navbar activeSection={activeSection} />
 

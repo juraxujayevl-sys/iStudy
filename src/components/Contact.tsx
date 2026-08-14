@@ -95,7 +95,7 @@ export const Contact: React.FC = () => {
                     <Send className="w-5 h-5 text-cyan-600 dark:text-cyan-400 group-hover:scale-110 transition-transform" />
                     <div className="flex flex-col text-left">
                       <span>{t.contact.telegram}</span>
-                      <span className="text-[10px] text-slate-500 dark:text-gray-400 font-mono">@laziz_ai • Fast Response</span>
+                      <span className="text-[10px] text-slate-500 dark:text-gray-400 font-mono">@juraxujayev_1 • Fast Response</span>
                     </div>
                   </div>
                   <ArrowUpRight className="w-4 h-4 text-cyan-600 dark:text-cyan-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -137,7 +137,7 @@ export const Contact: React.FC = () => {
               {/* Location Badge */}
               <div className="pt-4 border-t border-slate-200 dark:border-white/10 flex items-center gap-3 text-xs font-mono text-slate-500 dark:text-gray-400">
                 <Globe className="w-4 h-4 text-cyan-600 dark:text-cyan-400" />
-                <span>Location: Tashkent, Uzbekistan (UTC+5)</span>
+                <span>Location: Samarkand, Uzbekistan (UTC+5)</span>
               </div>
             </div>
           </div>

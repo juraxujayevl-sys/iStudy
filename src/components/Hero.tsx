@@ -126,7 +126,7 @@ export const Hero: React.FC = () => {
             {/* Top Pill / Badge */}
             <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full glass-panel border border-cyan-500/30 text-xs font-mono text-cyan-600 dark:text-cyan-300 shadow-lg shadow-cyan-500/10">
               <Sparkles className="w-3.5 h-3.5 text-cyan-500 dark:text-cyan-400" />
-              <span>Tashkent, Uzbekistan 🇺🇿</span>
+              <span>Samarkand, Uzbekistan 🇺🇿</span>
               <span className="w-1 h-1 rounded-full bg-cyan-400"></span>
               <span>{t.hero.badge}</span>
             </div>

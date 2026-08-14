@@ -25,7 +25,7 @@ export const About: React.FC = () => {
 
   const highlightsMap = {
     uz: [
-      'Toshkent, O\'zbekiston 🇺🇿',
+      'Samarqand, O\'zbekiston 🇺🇿',
       'O\'zbek tili uchun LLaMA-3 fine-tuning tajribasi',
       'Aegis Ko\'p Agentli Framework muallifi',
       'O\'zbekistondagi Top AI va Texnologik Kontent Meyker',
@@ -33,7 +33,7 @@ export const About: React.FC = () => {
       '4+ yillik Full-Stack va AI dasturlash tajribasi',
     ],
     ru: [
-      'Ташкент, Узбекистан 🇺🇿',
+      'Самарканд, Узбекистан 🇺🇿',
       'Опыт дообучения моделей LLaMA-3 для узбекского языка',
       'Автор многоагентного фреймворка Aegis',
       'Ведущий AI инфлюенсер и технологический автор в Узбекистане',
@@ -41,7 +41,7 @@ export const About: React.FC = () => {
       '4+ года опыта в Full-Stack и AI разработке',
     ],
     en: [
-      'Based in Tashkent, Uzbekistan 🇺🇿',
+      'Based in Samarkand, Uzbekistan 🇺🇿',
       'Fine-tuned open-source Uzbek LLaMA-3 models',
       'Creator of Aegis Agent Framework',
       'Top Tech Influencer & AI Educator in Uzbekistan',

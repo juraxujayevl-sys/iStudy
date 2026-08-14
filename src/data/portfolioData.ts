@@ -4,12 +4,13 @@ import { Language } from './translations';
 export const PERSONAL_INFO = {
   name: 'LAZIZ',
   fullName: 'Lazizbek (Laziz)',
-  email: 'contact@laziz.ai',
-  telegram: 'https://t.me/laziz_ai',
+  email: 'juraxujayevl@gmail.com',
+  telegram: 'https://t.me/juraxujayev_1',
   instagram: 'https://instagram.com/laziz.ai',
   youtube: 'https://youtube.com/@laziz_ai',
   github: 'https://github.com/laziz-ai',
   linkedin: 'https://linkedin.com/in/laziz-ai',
+  location: 'Samarkand, Uzbekistan 🇺🇿'
 };
 
 export const getPersonalStats = (lang: Language) => {
@@ -115,7 +116,7 @@ export const getAiProjects = (lang: Language): AiProject[] => {
           'PostgreSQL bazasida ma\'lumotlar jurnali'
         ],
         results: 'Laziz Media uchun tarmoqlarga post joylash mehnatining 85% qismini avtomatlashtirdi, 400+ dan ortiq postlar qo\'lda yozilmasdan nashr etildi.',
-        demoUrl: 'https://t.me/laziz_ai',
+        demoUrl: 'https://t.me/juraxujayev_1',
         githubUrl: 'https://github.com/laziz-ai/autocontent-n8n',
         featured: false
       },
@@ -239,7 +240,7 @@ export const getAiProjects = (lang: Language): AiProject[] => {
           'Логирование в PostgreSQL'
         ],
         results: 'Автоматизировано 85% дистрибуции контента, опубликовано более 400 постов без ручного копирования.',
-        demoUrl: 'https://t.me/laziz_ai',
+        demoUrl: 'https://t.me/juraxujayev_1',
         githubUrl: 'https://github.com/laziz-ai/autocontent-n8n',
         featured: false
       },
@@ -363,7 +364,7 @@ export const getAiProjects = (lang: Language): AiProject[] => {
         'PostgreSQL logging & analytical queue'
       ],
       results: 'Automated 85% of social distribution workload for Laziz Media, publishing over 400 tech posts with zero manual copy-pasting.',
-      demoUrl: 'https://t.me/laziz_ai',
+      demoUrl: 'https://t.me/juraxujayev_1',
       githubUrl: 'https://github.com/laziz-ai/autocontent-n8n',
       featured: false
     },

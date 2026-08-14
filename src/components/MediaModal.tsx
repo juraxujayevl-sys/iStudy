@@ -100,7 +100,7 @@ export const MediaModal: React.FC<MediaModalProps> = ({ item, onClose }) => {
           {/* Direct Link Action */}
           <div className="pt-2 flex items-center justify-between">
             <span className="text-xs text-slate-500 dark:text-gray-400 font-mono">
-              Created by Laziz • Tashkent, Uzbekistan
+              Created by Laziz • Samarkand, Uzbekistan
             </span>
 
             <a

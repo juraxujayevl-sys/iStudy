@@ -49,7 +49,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
                 Role: {project.role}
               </span>
               <span>•</span>
-              <span className="text-slate-700 dark:text-gray-300">Tashkent, Uzbekistan</span>
+              <span className="text-slate-700 dark:text-gray-300">Samarkand, Uzbekistan</span>
             </div>
           </div>
 

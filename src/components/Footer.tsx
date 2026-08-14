@@ -98,7 +98,7 @@ export const Footer: React.FC = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 dark:text-gray-400 gap-4">
           <p>© {new Date().getFullYear()} LAZIZ. {t.footer.rights}</p>
           <p className="flex items-center gap-1 font-mono text-[11px]">
-            <span>Tashkent, Uzbekistan 🇺🇿</span>
+            <span>Samarkand, Uzbekistan 🇺🇿</span>
           </p>
         </div>
 

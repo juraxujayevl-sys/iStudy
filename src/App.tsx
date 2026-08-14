@@ -12,8 +12,10 @@ import { Footer } from './components/Footer';
 import { ProjectModal } from './components/ProjectModal';
 import { MediaModal } from './components/MediaModal';
 import { AiProject, ContentItem } from './types';
+import { ThemeProvider } from './context/ThemeContext';
+import { LanguageProvider } from './context/LanguageContext';
 
-export default function App() {
+function MainApp() {
   const [activeSection, setActiveSection] = useState<string>('hero');
   const [selectedProject, setSelectedProject] = useState<AiProject | null>(null);
   const [selectedContent, setSelectedContent] = useState<ContentItem | null>(null);
@@ -42,7 +44,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#090A0F] text-[#F3F4F6] selection:bg-cyan-500 selection:text-black">
+    <div className="min-h-screen bg-slate-50 dark:bg-[#090A0F] text-slate-900 dark:text-[#F3F4F6] selection:bg-cyan-500 selection:text-white dark:selection:text-black transition-colors duration-300">
       {/* Sticky Navigation */}
       <Navbar activeSection={activeSection} />
 
@@ -72,5 +74,15 @@ export default function App() {
         onClose={() => setSelectedContent(null)}
       />
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <ThemeProvider>
+      <LanguageProvider>
+        <MainApp />
+      </LanguageProvider>
+    </ThemeProvider>
   );
 }
